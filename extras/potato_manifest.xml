@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="farts"
+          fetch="https://github.com/killcmd" />
+  <project name="android_device_essential_mata" path="device/essential/mata" remote="farts" revision="baked-release" />
+  <project name="kernel_essential_msm8998-1" path="kernel/essential/msm8998" remote="farts" revision="Artemis" />
+  <project name="vendor_essential" path="vendor/essential" remote="farts" revision="baked-release" />
+</manifest>
