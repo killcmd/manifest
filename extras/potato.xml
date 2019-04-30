@@ -20,8 +20,8 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project name="device_potato_sepolicy"         path="device/potato/sepolicy"         remote="potato" />
-  <project name="AICP/device_qcom_sepolicy"      path="device/qcom/sepolicy"           remote="github" revision="refs/heads/p9.0"  />
-  <project name="external_json-c"                path="external/json-c"                remote="potato" />
+  <!-- <project name="device_qcom_sepolicy"           path="device/qcom/sepolicy"           remote="potato" /> -->
+  <!-- <project name="external_json-c"                path="external/json-c"                remote="potato" /> -->
   <project name="external_perfetto"              path="external/perfetto"              remote="potato" />
   <project name="external_selinux"               path="external/selinux"               remote="potato" />
   <project name="external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="potato" />
@@ -62,9 +62,10 @@
   <project name="vendor_potato"                  path="vendor/potato"                  remote="potato" />
   <project name="vendor_qcom_opensource_cryptfs_hw" path="vendor/qcom/opensource/cryptfs_hw" remote="potato" />
   <project name="packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" remote="potato" />
-  <project name="AICP/prebuilts_clang_host_linux-x86" path="prebuilts/clang/host/linux-x86" remote="github" revision="refs/heads/p9.0"  />
+  <project name="AOSiP/platform_prebuilts_clang_host_linux-x86" path="prebuilts/clang/host/linux-x86" remote="github" revision="refs/heads/pie"  />
 
   <!-- Lineage Repos -->
+  <project name="android_device_qcom_sepolicy-legacy"               path="device/qcom/sepolicy-legacy"               remote="lineage" />
   <project name="android_packages_inputmethods_LatinIME"            path="packages/inputmethods/LatinIME"            remote="lineage" />
   <project name="android_packages_resources_devicesettings"         path="packages/resources/devicesettings"         remote="lineage" />
   <project name="android_system_tools_dtbtool"                      path="system/tools/dtbtool"                      remote="lineage" />
