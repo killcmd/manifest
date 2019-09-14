@@ -740,6 +740,6 @@
   <!-- Potato Additions -->
   <include name="extras/potato.xml" />
   <include name="extras/hardware.xml" />
-  <include name="extras/guac.xml" />
+  <include name="extras/dev.xml" />
 
 </manifest>
